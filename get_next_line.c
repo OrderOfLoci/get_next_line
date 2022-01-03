@@ -6,7 +6,7 @@
 /*   By: wnull <wnull@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 15:37:38 by wnull             #+#    #+#             */
-/*   Updated: 2021/11/25 00:01:55 by wnull            ###   ########.fr       */
+/*   Updated: 2022/01/03 15:29:33 by wnull            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ char	*get_next_line(int fd)
 
 int main()
 {
-	int fda;
+	int 	fda;
 	fda = open("hello.txt", O_RDONLY);
 	printf("%s", get_next_line(fda));
 	printf("\n");
